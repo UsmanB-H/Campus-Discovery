@@ -1,0 +1,113 @@
+.item {
+  margin: .5rem 0;
+}
+
+.image {
+  width: 100%;
+  height: 10rem;
+  overflow: hidden;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  text-align: center;
+  padding: .8rem;
+}
+
+.eventCard {
+    background-color: #FFFFFF;
+    padding: 4px;
+    margin: 20px;
+    width: 425px;
+}
+
+.eventTitle {
+    font-size: 20px;
+    font-weight:700;
+}
+
+.eventDescription {
+    font-size: 15px;
+    
+}
+
+.eventHost {
+    font-size: 15px;
+}
+
+.eventAddress {
+    font-size: 15px;
+}
+
+.eventTime {
+    font-size: 15px;
+}
+
+.eventCapacity {
+    font-size: 15px;
+    font-weight: 500;
+  
+}
+
+.AttendStatusButtons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.moreButtonCSS {
+    margin-right: 20px;
+}
+
+.openEditModalButtons {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+}
+
+.OpenInviteUserModalButtons {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.deleteButtonCSS {
+    margin-right: 20px;
+}
+
+.inviteUserButton {
+  margin-left: 19px;
+}
+
+.status {
+  text-align: center;
+}
+
+.mainActionButtons {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.attendingListContainer {
+  justify-content: space-around;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.AttendingListCSS {
+  margin-top: -22px;
+}
+
+.cancelButton {
+  text-align: center;
+}

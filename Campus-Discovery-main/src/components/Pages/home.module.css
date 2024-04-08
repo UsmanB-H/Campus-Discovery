@@ -1,0 +1,43 @@
+.starth1::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.starth1:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.starth1::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: hsl(201 100% 17%);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+.starth1 {
+  position: relative;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.p1 {
+  font-size: 30px;
+}
+
+.navbarheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.homepage {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}

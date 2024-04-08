@@ -1,0 +1,31 @@
+
+  .event1 {
+    position: fixed;
+  }
+
+  .list1 {
+    position: flex;
+    justify-content: left;
+  }
+
+  .confirmEventButton {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .pageNumbers {
+    list-style: none;
+    display: flex;
+  }
+
+  .pageNumbersActive {
+    background-color: white;
+    color: black;
+  }
+
+  .pagination {
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+  }
